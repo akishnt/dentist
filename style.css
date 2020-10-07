@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+    background-color: rgba(142, 186, 191, 0.9);
+    opacity: 0.7;
+    height: 56px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+	position: relative;
+}
+ 
+.title ul {
+    list-style: none;
+	position: relative;
+	left: 50%; /* ulを右に50%移動 */
+	float: left;
+	margin-left: -5px;/* liのmarginの半分をネガティブマージン（しないと右にずれる） */
+}
+ 
+.title ul li {
+	position: relative;
+	left: -50%; /* 左に50%移動 */
+	float: left;
+	margin-left: 10px;
+}
+
+.title a {
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+    color: rgba(24, 22, 38, 0.9);
+    background-color: rgba(192, 226, 226, 0.5);
+}
+
+.title a:hover {
+    background-color: rgba(192, 226, 226, 0.7);
+}
+
+.main {
+    background-color: rgba(196, 238, 242, 0.7);
+    height: 1000px;
+    padding: 180px 0 100px 0;
+    text-align: center;
+}
+
+.dentist {
+    color: rgba(123, 129, 140, 0.9);
+    text-align: center;
+}
+
+.shiromain {
+    text-align: left;
+    display: inline-block;
+    color: rgba(123, 129, 140, 0.9);
+}
+
+.smilemain {
+    text-align: left;
+    display: inline-block;
+    color: rgba(123, 129, 140, 0.9);
+}
+
+.content {
+    float: left;
+    padding-top: 10px;
+    border-right: solid 3px rgba(123, 129, 140, 0.7);
+    margin-bottom: 100px;
+}
+
+.first {
+    padding-right: 15px;
+    width: 370px;
+}
+
+.second {
+    padding-bottom: 28px;
+    width: 380px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.third {
+    padding-left: 25px;
+    padding-bottom: 145px;
+    border: none;
+    width: 360px;
+}
+
+.cb {
+    clear: both;
+    font-size: 20px;
+    color: rgba(123, 129, 140, 0.9);
+}
+
+.content dl {
+    text-align: left;
+    display: inline-block;
+    color: rgba(123, 129, 140, 0.9);
+}
+
+.red {
+    color: rgba(252, 76, 76, 0.9);
+}
+
+.shirocontent {
+    float: left;
+    text-align: left;
+}
+
+.shirocontent a {
+    color: rgba(60, 92, 151, 0.9);
+}
+
+.dentists {
+    color: rgba(123, 129, 140, 0.9);
+}
+
+.dentists h1 {
+    padding-top: 100px;
+}
+
+#exit {
+    margin-top: 100px;
+    color: rgba(123, 129, 140, 0.9);
+}
